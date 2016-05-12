@@ -1,0 +1,107 @@
+<!-- start: BREADCRUMB -->
+<div class="breadcrumb-wrapper">
+    <h4 class="mainTitle no-margin" translate="sidebar.nav.charts.MAIN">Charts</h4>
+
+    <div ncy-breadcrumb class="pull-right"></div>
+</div>
+
+<!-- start: Sentiment Analysis-->
+<div class="container-fluid container-fullw">
+    <div class="row">
+        <div class="col-sm-12">
+            <div class="panel panel-white">
+                <div class="panel-body">
+                    <div class="row">
+                        <div>
+                            <div class="col-sm-6" ng-controller="SentimentCtrl">
+                                <h5 class="over-title margin-bottom-15">Sentiment Analysis<span class="text-bold"> in Melbourne Region</span></h5>
+                                <canvas class="chart chart-pie" chart-data="data" chart-options="options" chart-labels="labels" chart-series="series" chart-colours="colors" chart-legend="true"></canvas>
+                            </div>
+                            <div class="col-sm-6" ng-controller="SentimentDayCtrl">
+                                <h5 class="over-title margin-bottom-15">Sentiment Analysis<span class="text-bold"> in Day Lights</span></h5>
+                                <canvas class="chart chart-bar" chart-data="data" chart-options="options" chart-labels="labels" chart-series="series" chart-colours="colors" chart-legend="true"></canvas>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- end: Sentiment Analysis-->
+
+<!-- start: Sentiment Analysis-->
+<div class="container-fluid container-fullw">
+    <div class="row">
+        <div class="col-sm-12">
+            <div class="panel panel-white">
+                <div class="panel-body">
+                    <div class="row">
+                        <div>
+                            <div class="col-sm-6" ng-controller="NHappiestSuburbsCtrl">
+                                <h5 class="over-title margin-bottom-15">Top 5 Happiest Suburbs<span class="text-bold"> in Melbourne Region</span></h5>
+                                <canvas class="chart chart-pie" chart-data="data_top" chart-options="options" chart-labels="labels_top" chart-series="series" chart-colours="colors" chart-legend="true"></canvas>
+                            </div>
+                            <div class="col-sm-6" ng-controller="NHappiestSuburbsCtrl">
+                                <h5 class="over-title margin-bottom-15">Top 5 Saddest Suburbs<span class="text-bold"> in Melbourne Region</span></h5>
+                                <canvas class="chart chart-pie" chart-data="data_bottom" chart-options="options" chart-labels="labels_bottom" chart-series="series" chart-colours="colors" chart-legend="true"></canvas>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- end: Sentiment Analysis-->
+
+
+<!-- start: Top 5 Languages and UserId-->
+<div class="container-fluid container-fullw">
+    <div class="row">
+        <div class="col-sm-12">
+            <div class="panel panel-white">
+                <div class="panel-body">
+                    <div class="row">
+                        <div>
+                            <div class="col-sm-6" ng-controller="LangCtrl">
+                                <h5 class="over-title margin-bottom-15">Top 5 Languages<span class="text-bold"> in Melbourne Region</span></h5>
+                                <canvas class="chart chart-doughnut" chart-data="data" chart-options="options" chart-labels="labels" chart-series="series" chart-colours="colors" chart-legend="true"></canvas>
+                            </div>
+                            <div class="col-sm-6" ng-controller="UserIdCtrl">
+                                <h5 class="over-title margin-bottom-15">Top 5 User Ids<span class="text-bold"> in Melbourne Region</span></h5>
+                                <canvas class="chart chart-doughnut" chart-data="data" chart-options="options" chart-labels="labels" chart-series="series" chart-colours="colors" chart-legend="true"></canvas>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- end: Top 5 Languages and UserId-->
+
+<!-- start: Top 5 Mentioned topics and twitters-->
+<div class="container-fluid container-fullw">
+    <div class="row">
+        <div class="col-sm-12">
+            <div class="panel panel-white">
+                <div class="panel-body">
+                    <div class="row">
+                        <div>
+                            <div class="col-sm-6" ng-controller="TwitterCtrl">
+                                <h5 class="over-title margin-bottom-15">Top 5 Twitters mentioned<span class="text-bold"> in Melbourne Region</span></h5>
+                                <canvas class="chart chart-pie" chart-data="data" chart-options="options" chart-labels="labels" chart-series="series" chart-colours="colors" chart-legend="true"></canvas>
+                            </div>
+                            <div class="col-sm-6" ng-controller="TopicCtrl">
+                                <h5 class="over-title margin-bottom-15">Top 5 Topics mentioned<span class="text-bold"> in Melbourne Region</span></h5>
+                                <canvas class="chart chart-pie" chart-data="data" chart-options="options" chart-labels="labels" chart-series="series" chart-colours="colors" chart-legend="true"></canvas>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- end: Top Mentioned topics and twitters-->

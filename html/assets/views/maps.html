@@ -1,0 +1,26 @@
+<!-- start: BREADCRUMB -->
+<div class="breadcrumb-wrapper">
+    <h4 class="mainTitle no-margin" translate="sidebar.nav.maps.MAIN">MAPS</h4>
+
+    <div ncy-breadcrumb class="pull-right"></div>
+</div>
+<!-- end: BREADCRUMB -->
+<!-- start: BASIC MAP -->
+<div map-lazy-load="https://maps.google.com/maps/api/js">
+    <div class="container-fluid container-fullw">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="panel panel-white">
+                    <div class="panel-body">
+                        <h5 class="over-title margin-bottom-15">Basic <span class="text-bold">Map</span></h5>
+                        <div ng-controller="mapsCtrl">
+                            <ng-map zoom="13" center="37.774546, -122.433523" >
+        <heatmap-layer id="taxiDataMap" data="taxiData"></heatmap>
+    </ng-map>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

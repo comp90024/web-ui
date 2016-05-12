@@ -1,0 +1,41 @@
+<!-- start: BREADCRUMB -->
+<div class="breadcrumb-wrapper">
+    <h4 class="mainTitle no-margin" translate="sidebar.nav.scenario3.MAIN">Top Languages</h4>
+
+    <div ncy-breadcrumb class="pull-right"></div>
+</div>
+<!-- end: BREADCRUMB -->
+<!-- start: YOUR CONTENT HERE -->
+<div class="container-fluid container-fullw">
+    <div class="row">
+        <div class="col-md-12">
+            <div class="panel panel-white">
+                <div class="panel-body">
+                    <div class="col-md-12">
+                        <div class="panel panel-white no-radius no-border" id="visits">
+                            <div class="panel-heading padding-right-70">
+                                <h2 class="inline-block"> Scenario 4: Top Languages </h2>
+                                <ct-paneltool class="panel-tools" tool-refresh="load1" tool-expand="tool-expand"></ct-paneltool>
+                            </div>
+                            <div class="panel-wrapper">
+                                <div class="panel-body">
+                                    <div class="col-md-12" ng-controller="AurinLangCtrl">
+                                        <canvas class="chart chart-bar" chart-data="data" chart-options="options" chart-labels="labels" chart-series="series" chart-colours="colors" chart-legend="true"></canvas>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="panel-wrapper">
+                                <div class="panel-body">
+                                    <div class="col-md-12" ng-controller="TweetsLangCtrl">
+                                        <canvas class="chart chart-bar" chart-data="data" chart-options="options" chart-labels="labels" chart-series="series" chart-colours="colors" chart-legend="true"></canvas>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- end: YOUR CONTENT HERE -->

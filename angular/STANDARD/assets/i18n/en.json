@@ -1,0 +1,128 @@
+{
+    "flagstyle": "flag-icon-us",
+    "dashboard": {
+        "WELCOME": "Welcome to {{appName}}"
+    },
+    "search": {
+        "PLACEHOLDER": "Enter search text here..."
+    },
+    "topbar": {
+        "messages": {
+            "MAIN": "Messages",
+            "HEADER": "Unread messages",
+            "SEEALL": "See All"
+        },
+
+        "activities": {
+            "MAIN": "Activities",
+            "HEADER": "You have new notifications",
+            "SEEALL": "See All"
+        },
+        "user": {
+            "PROFILE": "My Profile",
+            "CALENDAR": "My Calendar",
+            "MESSAGES": "My Messages",
+            "LOCKSCREEN": "Lock Screen",
+            "LOGOUT": "Log Out"
+        }
+    },
+    "offsidebar": {
+        "chat": {
+            "ONLINE": "On-Line",
+            "OFFLINE": "Off-Line",
+            "BACK": "Back",
+            "SEND": "Send",
+            "PLACEHOLDER": "Message"
+        },
+        "favorites": {
+            "MAIN": "Favorites"
+        },
+        "settings": {
+            "MAIN": "General Settings",
+            "NOTIFICATIONS": "Enable Notifications",
+            "SHOWEMAIL": "Show your E-mail",
+            "SHOWUSERS": "Show Offline Users",
+            "EMAILALERT": "E-mail Alerts",
+            "SMSALERT": "SMS Alerts",
+            "SAVE": "Save Changes"
+        }
+    },
+    "sidebar": {
+        "heading": {
+            "NAVIGATION": "Main Navigation",
+            "FEATURES": "Core Features",
+            "DOCUMENTATION": "Documentation"
+        },
+        "nav": {
+            "dashboard": {
+                "MAIN": "About Us"
+            },
+            "pagelayouts": {
+                "MAIN": "Page Layouts",
+                "FIXEDHEADER": "Fixed Header",
+                "FIXEDSIDEBAR": "Fixed Sidebar",
+                "FIXEDHEADERSIDEBAR": "Fixed Header &amp; Sidebar",
+                "FIXEDFOOTER": "Fixed Footer",
+                "BOXEDPAGE": "Boxed Page"
+            },
+            "tables": {
+                "MAIN": "Tables",
+                "BASIC": "Basic Tables",
+                "RESPONSIVE": "Responsive Tables",
+                "DYNAMIC": "Dynamic Tables",
+                "DATA": "ngTable"
+            },
+            "forms": {
+                "MAIN": "Forms",
+                "ELEMENTS": "Form Elements",
+                "PICKERS": "Pickers",
+                "XEDITABLE": "X-Editable Elements",
+                "TEXTEDITOR": "Text Editor",
+                "WIZARD": "Form Wizard",
+                "VALIDATION": "Form Validation",
+                "CROPPING": "Image Cropping",
+                "UPLOAD": "Multiple File Upload"
+            },
+            "login": {
+                "MAIN": "Login",
+                "LOGIN": "Login Form",
+                "REGISTRATION": "Registration Form",
+                "FORGOT": "Forgot Password Form",
+                "LOCKSCREEN": "Lock Screen"
+            },
+            "maps": {
+                "MAIN": "Search Tweets"
+            },
+            "charts": {
+                "MAIN": "Charts"
+            },
+            "search": {
+                "MAIN": "Search Tweets"
+            },
+            "scenario1": {
+                "MAIN": "Income & Happiness"
+            },
+            "scenario2": {
+                "MAIN": "Age & Happiness"
+            },
+            "scenario3": {
+                "MAIN": "Top 5 Languages"
+            },"scenario4": {
+                "MAIN": "Age & Number of Tweets"
+            }
+        }
+    },
+    "footer": {
+        "copyright": {
+            "MAIN": "Copyright",
+            "MESSAGE": "All rights reserved"
+        }
+    },
+    "setting": {
+        "MAIN": "Style Selector",
+        "FIXEDHEADER": "Fixed header",
+        "FIXEDSIDEBAR": "Fixed sidebar",
+        "CLOSEDSIDEBAR": "Closed sidebar",
+        "FIXEDFOOTER": "Fixed footer"
+    }
+}
